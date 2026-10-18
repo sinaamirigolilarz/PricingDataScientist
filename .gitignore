@@ -9,3 +9,5 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+candidate_dataset.parquet
+Pricing Data Science Task.docx
