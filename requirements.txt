@@ -1,0 +1,22 @@
+# Pinned for reproducibility on Python 3.10 (CPU-only, no GPU required).
+# Install with:  pip install -r requirements.txt
+
+# --- Core data & modeling ---
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==25.0.1          # read the Parquet dataset
+scikit-learn==1.7.2
+lightgbm==4.7.0          # main model (CPU, low memory)
+jdatetime==6.1.1         # Jalali (Persian) calendar parsing of the date column
+
+# --- Visualization ---
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# --- Notebook execution ---
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.3.0
+
+# --- Tests ---
+pytest==9.1.1
